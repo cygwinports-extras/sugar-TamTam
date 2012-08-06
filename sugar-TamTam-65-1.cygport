@@ -1,0 +1,11 @@
+inherit sugar
+
+
+SRC_URI="http://download.sugarlabs.org/sources/honey/TamTam/TamTamSuite-${PV}.tar.bz2"
+SRC_DIR="TamTamSuite-${PV}"
+
+src_install() {
+	cd ${S}
+	export DESTDIR=${D}
+	sugar_install
+}
