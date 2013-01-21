@@ -1,3 +1,6 @@
+NAME="sugar-TamTam"
+VERSION=66
+RELEASE=1
 inherit sugar
 
 
